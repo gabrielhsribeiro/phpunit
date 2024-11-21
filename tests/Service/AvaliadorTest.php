@@ -8,6 +8,10 @@ use Alura\Leilao\Model\Usuario;
 use Alura\Leilao\Service\Avaliador;
 use PHPUnit\Framework\TestCase;
 
+//site com demais métodos possíveis além de assertEquals
+//https://docs.phpunit.de/en/8.5/assertions.html
+
+//rodar no terminal p ver os testes
 //vendor/bin/phpunit --colors tests
 
 class AvaliadorTest extends TestCase
